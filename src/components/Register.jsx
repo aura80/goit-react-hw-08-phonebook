@@ -9,7 +9,7 @@ const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const dispatch = useDispatch();
-  const auth = useSelector(state => state.auth);
+  // const auth = useSelector(state => state.auth);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
